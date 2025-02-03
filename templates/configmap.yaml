@@ -9,3 +9,4 @@ data:
   pod: {{ .Values.pod }}
   env: {{ .Values.env }}
   family: {{ .Values.family }}
+  imageTag: {{ .Values.imageTag }}
