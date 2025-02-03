@@ -1,0 +1,9 @@
+kind: ConfigMap
+metadata:
+  name: argo-helm-test
+data:
+  clusterName: {{ .Values.clusterName }}
+  region: {{ .Values.region }}
+  pod: {{ .Values.pod }}
+  env: {{ .Values.env }}
+  family: {{ .Values.family }}

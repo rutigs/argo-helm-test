@@ -1,0 +1,5 @@
+clusterName: testing
+region: europe-west1
+pod: gew1
+env: testing
+family: multi-tenant
