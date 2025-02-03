@@ -1,6 +1,7 @@
 kind: ConfigMap
 metadata:
   name: argo-helm-test
+  namespace: bakeoff
 data:
   clusterName: {{ .Values.clusterName }}
   region: {{ .Values.region }}
